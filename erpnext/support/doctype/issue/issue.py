@@ -45,6 +45,7 @@ class Issue(Document):
 		on_hold_since: DF.Datetime | None
 		opening_date: DF.Date | None
 		opening_time: DF.Time | None
+		point: DF.Data | None
 		priority: DF.Link | None
 		project: DF.Link | None
 		raised_by: DF.Data | None

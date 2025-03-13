@@ -14,6 +14,7 @@
   "subject",
   "customer",
   "raised_by",
+  "point",
   "cb00",
   "status",
   "priority",
@@ -386,12 +387,17 @@
    "fieldtype": "Duration",
    "label": "First Response Time",
    "read_only": 1
+  },
+  {
+   "fieldname": "point",
+   "fieldtype": "Data",
+   "label": "point"
   }
  ],
  "icon": "fa fa-ticket",
  "idx": 7,
  "links": [],
- "modified": "2021-11-24 13:13:10.276630",
+ "modified": "2025-03-10 16:48:46.005375",
  "modified_by": "Administrator",
  "module": "Support",
  "name": "Issue",
@@ -415,6 +421,7 @@
  "sender_field": "raised_by",
  "sort_field": "modified",
  "sort_order": "DESC",
+ "states": [],
  "subject_field": "subject",
  "timeline_field": "customer",
  "title_field": "subject",
